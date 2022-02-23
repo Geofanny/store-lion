@@ -1,0 +1,20 @@
+body{
+	background-color: #ecf0f3;
+}
+.container{
+	margin-top: 150px;
+}
+.row-produk{
+	background-color: #fff;
+}
+.img-keranjang{
+	width: 30px;
+}
+
+@media screen and (max-width: 600px) {
+	.container{
+		margin-top: 90px;
+	}
+	#atas{
+		margin-bottom: 20px;
+	}

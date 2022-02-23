@@ -1,0 +1,26 @@
+ #judul{
+    font-family: 'Pushster', cursive;
+    color: #2bc9cc;
+}
+.buynow{
+    margin-bottom: 40px;
+}
+
+
+@media screen and (min-width: 601px) {
+    #judul {
+        font-size:40px;
+    }
+    .right_header_info ul{
+        margin-top: 3px;
+    }
+    ul.sociel li a{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #judul {
+        font-size: 40px;
+    }
+    .right_header_info ul{
+        margin-top: 3px;

@@ -1,0 +1,56 @@
+ span#judul{
+    font-family: 'Pushster', cursive;
+    color: white; !important;
+}
+.fa-store{
+    color: #fffb94;
+}
+.buynow{
+    margin-bottom: 40px;
+}
+.right_header_info ul .menu_iconb input[placeholder="Search"]{
+    color: grey;
+    padding-left: 2vh;
+}
+.user{
+    margin-top: 1px;
+    width: 60px;
+    background-color: burlywood;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 8px;
+}
+.nama{
+    margin-top:0;
+    margin-left: 3px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+.atas{
+    border-bottom:2px solid grey;
+    border-top:2px solid grey;
+    background: coral;
+}
+
+@media screen and (min-width: 601px) {
+    #judul {
+        font-size:40px;
+    }
+    .right_header_info ul{
+        margin-left: 30px;
+    }
+    ul.sociel li a{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #judul {
+        font-size: 24px;
+    }
+    .right_header_info ul{
+        margin-top: 3px;
+    }
+}
